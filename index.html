@@ -28,22 +28,7 @@
 	
            <audio autoplay="autoplay" loop="true">
       <source src="./media/2.mp3" type="audio/mp3" />
-    </audio>
-
-    <script>
-      var audioplay = document.querySelector("audio");
-      var promise = audio.play();
-      if (promise !== undefined) {
-        promise
-          .then((_) => {
-            // 自动播放开始
-          })
-          .catch((error) => {                                  //音乐播放
-            // 自动播放被阻止，显示播放按钮
-            showPlayButton();
-          });
-      }
-    </script>        
+    </audio>    
 
 </head>
 
