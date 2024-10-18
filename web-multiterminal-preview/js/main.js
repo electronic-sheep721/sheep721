@@ -50,10 +50,10 @@ document.querySelector('.scrollbar-input').addEventListener('change', function (
 
 
 // 实例
-document.querySelector('.desktop-input').value = 'https://www.cmymoon.com'
-document.querySelector('.laptop-input').value = 'https://www.cmymoon.com'
-document.querySelector('.tablet-input').value = 'https://www.cmymoon.com'
-document.querySelector('.mobile-input').value = 'https://www.cmymoon.com'
+document.querySelector('.desktop-input').value = 'https://electronic-sheep721.github.io/sheep721/'
+document.querySelector('.laptop-input').value = 'https://electronic-sheep721.github.io/sheep721/'
+document.querySelector('.tablet-input').value = 'https://electronic-sheep721.github.io/sheep721/'
+document.querySelector('.mobile-input').value = 'https://electronic-sheep721.github.io/sheep721/'
 desktopRender()
 laptopRender()
 tabletRender()
