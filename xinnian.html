@@ -22,9 +22,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
-    <audio autoplay="autopaly" loop="true">
+    <audio autoplay="autoplay" loop="true">
         <source src="./media/1.mp3" type="audio/mp3" />
       </audio>
+
+<script>
+      var audioplay = document.querySelector("audio");
+      var promise = audio.play();
+      if (promise !== undefined) {
+        promise
+          .then((_) => {                    //音乐的js
+            // 自动播放开始
+          })
+          .catch((error) => {
+            // 自动播放被阻止，显示播放按钮
+            showPlayButton();
+          });
+      }
+    </script>
+
+    
 </head>
 <body>
 <div class="container demo-1">
