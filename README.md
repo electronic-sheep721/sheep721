@@ -50,12 +50,7 @@
     </tr>
     <!-- 第三行 -->
     <tr>
-    <td valign="top">
-        <a target="_blank" href="https://room.cmymoon.com/christmas.html">
-            <p align="center">christmas</p>
-            <img src="./yulan/7.webp"/>
-        </a>
-    </td>
+    
     <td valign="top">
         <a target="_blank" href="https://music.cmymoon.com/">
             <p align="center">Music</p>
